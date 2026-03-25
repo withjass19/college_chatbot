@@ -1,0 +1,66 @@
+{
+  "main": {
+    "Admission Inquiry": {
+      "Admission Process": {
+        "UG Admission Process": "ug_admission_process",
+        "PG Admission Process": "pg_admission_process",
+        "Seat Availability": "seat_availability"
+      },
+
+      "Eligibility": "admission_eligibility",
+      "Required Documents": "admission_documents",
+      "Merit List": "merit_list",
+      "How to Apply": "admission_process",
+      "Fee Structure": "fee_structure",
+      "Other Inquiry": "other_inquiry"
+    },
+
+    "General Inquiry": {
+      "Courses Offered": {
+        "UG Courses": "ug_courses",
+        "PG Courses": "pg_courses",
+        "Certificate Courses": "certificate_courses"
+      },
+
+      "Fee Structure": "fee_structure",
+
+      "Scholarships": {
+        "Post Matric Scholarship": "post_matric_scholarship",
+        "Merit Scholarship": "merit_scholarship",
+        "SC/ST Scholarship": "sc_st_scholarship",
+        "OBC Scholarship": "obc_scholarship",
+        "Minority Scholarship": "minority_scholarship",
+        "How to Apply": "scholarship_apply",
+        "Required Documents": "scholarship_documents"
+      },
+
+      "Examination Information": {
+        "Exam Schedule": "exam_schedule",
+        "Admit Card": "admit_card",
+        "Practical Exams": "practical_exams",
+        "Reappear": "reappear_process",
+        "Examination Rules": "exam_rules",
+        "How to Fill Exam Form": "exam_form_process",
+        "Results & Re-evaluation": "results_revaluation"
+      },
+
+      "Hostel Facility": {
+        "Hostel Availability": "hostel_availability",
+        "Hostel Fees": "hostel_fees",
+        "Hostel Admission Process": "hostel_admission_process",
+        "Mess Facility": "mess_facility",
+        "Hostel Rules": "hostel_rules"
+      },
+
+      "Contact Details": {
+        "College Address": "college_address",
+        "Contact Number": "college_contact",
+        "Email Address": "college_email",
+        "Office Timings": "office_timings",
+        "How to Reach": "how_to_reach"
+      },
+
+      "Other Inquiry": "other_inquiry"
+    }
+  }
+}

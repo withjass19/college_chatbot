@@ -1,0 +1,529 @@
+[
+  {
+    "tag": "admission_process",
+    "patterns": [
+      "What is the admission process?",
+      "How can I get admission in the college?",
+      "What are the steps to apply for admission?",
+      "Tell me the college admission procedure"
+    ],
+    "responses": [
+      "First you need to fill the online application form. After that documents will be verified and admission will be confirmed based on merit or eligibility. Detailed schedule will be available on the notice board."
+    ]
+  },
+  {
+    "tag": "admission_eligibility",
+    "patterns": [
+      "What is the eligibility for admission?",
+      "Am I eligible for this course?",
+      "What is the minimum marks required for admission?",
+      "Tell me the eligibility criteria"
+    ],
+    "responses": [
+      "Eligibility depends on the course. Usually required percentage and subject background are checked. Please verify exact criteria from the prospectus or admission portal."
+    ]
+  },
+  {
+    "tag": "required_documents",
+    "patterns": [
+      "Which documents are required for admission?",
+      "Tell me the document list",
+      "Do I need to upload documents?",
+      "What are the admission documents"
+    ],
+    "responses": [
+      "You need mark sheet, transfer certificate, character certificate, identity proof, passport size photo and other course specific documents."
+    ]
+  },
+  {
+    "tag": "how_to_apply",
+    "patterns": [
+      "How do I apply?",
+      "How to take online admission?",
+      "Where can I find the application form?",
+      "I want to apply for admission"
+    ],
+    "responses": [
+      "Visit the admission section on the college website and fill the online form. After entering details, upload documents and submit the form."
+    ]
+  },
+  {
+    "tag": "merit_list_selection",
+    "patterns": [
+      "When will the merit list be released?",
+      "How is selection done?",
+      "What is the selection process?",
+      "Where can I check the merit list"
+    ],
+    "responses": [
+      "Merit list is prepared based on academic marks. The list is published on the college website and notice board."
+    ]
+  },
+  {
+    "tag": "ug_courses",
+    "patterns": [
+      "Which UG courses are available?",
+      "What bachelor courses are offered?",
+      "Give the undergraduate course list"
+    ],
+    "responses": [
+      "UG courses may include BA, BSc, BCom and other stream-based bachelor programs. Check the admission prospectus for the complete list."
+    ]
+  },
+  {
+    "tag": "pg_courses",
+    "patterns": [
+      "Which PG courses are available?",
+      "What master degree courses are offered?",
+      "Give the PG program list"
+    ],
+    "responses": [
+      "PG courses may include MA, MSc, MCom and other master level programs depending on subject availability."
+    ]
+  },
+  {
+    "tag": "certificate_courses",
+    "patterns": [
+      "Are certificate courses available?",
+      "Is there any short term course?",
+      "Give certificate program list"
+    ],
+    "responses": [
+      "Yes, some departments may offer short term certificate courses. Course availability may change semester wise."
+    ]
+  },
+  {
+    "tag": "fee_structure",
+    "patterns": [
+      "What is the fee?",
+      "What is the course fee structure?",
+      "Tell me the admission fee",
+      "What is the total college fee"
+    ],
+    "responses": [
+      "Fee structure depends on the course. You can check the exact fee breakup from the admission portal or office."
+    ]
+  },
+  {
+    "tag": "fee_payment_method",
+    "patterns": [
+      "How can I pay the fee?",
+      "Is online fee payment available?",
+      "What are the fee payment methods"
+    ],
+    "responses": [
+      "Fee can be paid through online portal, bank challan or college office payment system."
+    ]
+  },
+  {
+    "tag": "scholarship",
+    "patterns": [
+      "Can I get scholarship?",
+      "How to apply for scholarship?",
+      "What are the scholarship options?",
+      "Is financial help available"
+    ],
+    "responses": [
+      "Government and college scholarship schemes may be available. Application must be submitted through the scholarship portal."
+    ]
+  },
+  {
+    "tag": "hostel_facility",
+    "patterns": [
+      "Is hostel facility available?",
+      "Will I get hostel?",
+      "How to apply for hostel admission?",
+      "Is hostel available"
+    ],
+    "responses": [
+      "Hostel seats are limited and allotment is done on merit basis. Separate hostel application must be submitted."
+    ]
+  },
+  {
+    "tag": "hostel_rules",
+    "patterns": [
+      "What are hostel rules?",
+      "What is hostel timing?",
+      "What is allowed in hostel"
+    ],
+    "responses": [
+      "Hostel students must follow college discipline. Night entry timing and electronic device rules are decided by hostel authority."
+    ]
+  },
+  {
+    "tag": "library_services",
+    "patterns": [
+      "Is there a library facility?",
+      "Are books available in the library?",
+      "How to use the library"
+    ],
+    "responses": [
+      "Library provides academic books, reference books and reading space. Students can issue books by showing student ID card."
+    ]
+  },
+  {
+    "tag": "library_timing",
+    "patterns": [
+      "When does the library open?",
+      "What is library timing?",
+      "When does the library close"
+    ],
+    "responses": [
+      "Library timing is usually based on college working hours. Please check the notice board for exact timing."
+    ]
+  },
+  {
+    "tag": "exam_system",
+    "patterns": [
+      "What is the exam system?",
+      "How are exams conducted?",
+      "What is internal and external exam format"
+    ],
+    "responses": [
+      "College follows semester system where internal assessment and final written exams are conducted."
+    ]
+  },
+  {
+    "tag": "exam_schedule",
+    "patterns": [
+      "When will the exam schedule be released?",
+      "What is the exam date?",
+      "Where can I find the exam timetable"
+    ],
+    "responses": [
+      "Exam schedule is published on the college website and notice board."
+    ]
+  },
+  {
+    "tag": "result_declaration",
+    "patterns": [
+      "When will the result be declared?",
+      "How can I check the result?",
+      "Where is the exam result available"
+    ],
+    "responses": [
+      "Result is declared on the official website or student portal."
+    ]
+  },
+  {
+    "tag": "attendance_rule",
+    "patterns": [
+      "What is the attendance rule?",
+      "What is the minimum attendance required?",
+      "What happens if attendance is low"
+    ],
+    "responses": [
+      "Usually 75% attendance is required. Low attendance may cause exam permission problems."
+    ]
+  },
+  {
+    "tag": "leave_application",
+    "patterns": [
+      "How to apply for leave?",
+      "What to do if I want leave?",
+      "Where to submit leave application"
+    ],
+    "responses": [
+      "You must submit leave application to class teacher or department office."
+    ]
+  },
+  {
+    "tag": "assignment_help",
+    "patterns": [
+      "Will I get assignment help?",
+      "How to submit assignment?",
+      "What is assignment submission rule"
+    ],
+    "responses": [
+      "Assignments must be submitted according to teacher instructions. Do not miss the deadline."
+    ]
+  },
+  {
+    "tag": "placement_cell",
+    "patterns": [
+      "Is placement facility available?",
+      "What does placement cell do?",
+      "Can I get job placement?"
+    ],
+    "responses": [
+      "Placement cell provides job opportunities, company visits and recruitment guidance."
+    ]
+  },
+  {
+    "tag": "career_guidance",
+    "patterns": [
+      "Is career guidance available?",
+      "Who helps in future career?",
+      "Is counselling facility available?"
+    ],
+    "responses": ["College organizes career counselling and guidance sessions."]
+  },
+  {
+    "tag": "campus_infrastructure",
+    "patterns": [
+      "How is the campus?",
+      "What is college infrastructure?",
+      "What facilities are in campus"
+    ],
+    "responses": [
+      "Campus includes classrooms, labs, library, sports ground and student common areas."
+    ]
+  },
+  {
+    "tag": "wifi_facility",
+    "patterns": [
+      "Is WiFi facility available?",
+      "Is internet available in college?",
+      "Is campus WiFi available"
+    ],
+    "responses": [
+      "Yes, WiFi facility may be available for student use in campus."
+    ]
+  },
+  {
+    "tag": "sports_facility",
+    "patterns": [
+      "Is there a sports ground?",
+      "What sports facilities are available?",
+      "Are sports activities conducted"
+    ],
+    "responses": ["College may have sports ground and indoor game facilities."]
+  },
+  {
+    "tag": "events_fest",
+    "patterns": [
+      "When is college fest?",
+      "Are events organized?",
+      "When is cultural program conducted"
+    ],
+    "responses": [
+      "Annual fest, cultural programs and student activities are organized every year."
+    ]
+  },
+  {
+    "tag": "student_support",
+    "patterns": [
+      "Is there a student support system?",
+      "Where is help desk?",
+      "Whom to contact if I have a problem"
+    ],
+    "responses": ["Student help desk is available during office hours."]
+  },
+  {
+    "tag": "complaint_grievance",
+    "patterns": [
+      "Where can I file a complaint?",
+      "Is there a grievance system?",
+      "How to report a problem"
+    ],
+    "responses": [
+      "You can report issues on the college grievance portal or at the office complaint register."
+    ]
+  },
+  {
+    "tag": "id_card",
+    "patterns": [
+      "When will I get ID card?",
+      "How to make student ID card?",
+      "What if ID card is lost"
+    ],
+    "responses": [
+      "Student ID card is issued after admission. If lost, report to the office."
+    ]
+  },
+  {
+    "tag": "dress_code",
+    "patterns": [
+      "Is there any dress code?",
+      "What are college dress rules?",
+      "Is uniform compulsory"
+    ],
+    "responses": [
+      "Usually a decent dress code must be followed. Department specific rules may apply."
+    ]
+  },
+  {
+    "tag": "late_entry_rule",
+    "patterns": [
+      "What happens if I come late?",
+      "Is late entry allowed in college?",
+      "What if I am late"
+    ],
+    "responses": ["Late entry rules depend on department and college policy."]
+  },
+  {
+    "tag": "subject_help",
+    "patterns": [
+      "Will I get subject help?",
+      "How to solve study doubts?",
+      "Can I ask doubts from teacher"
+    ],
+    "responses": [
+      "Yes, you can discuss your doubts with class teacher or department faculty."
+    ]
+  },
+  {
+    "tag": "practical_classes",
+    "patterns": [
+      "Are practical classes conducted?",
+      "How are lab practicals done?",
+      "What is practical exam format"
+    ],
+    "responses": [
+      "Practical classes are conducted according to subject requirements."
+    ]
+  },
+  {
+    "tag": "lab_facility",
+    "patterns": [
+      "Is lab facility available?",
+      "Is computer lab available?",
+      "How is science lab"
+    ],
+    "responses": ["Lab facility is available depending on the department."]
+  },
+  {
+    "tag": "semester_system",
+    "patterns": [
+      "What is semester system?",
+      "Is it yearly or semester system?",
+      "What is course duration"
+    ],
+    "responses": ["College follows semester based academic system."]
+  },
+  {
+    "tag": "rechecking_revaluation",
+    "patterns": [
+      "Can I apply for rechecking?",
+      "What is revaluation process?",
+      "I want to recheck my paper"
+    ],
+    "responses": [
+      "You can apply for rechecking or revaluation after result declaration by submitting application."
+    ]
+  },
+  {
+    "tag": "migration_certificate",
+    "patterns": [
+      "Will I get migration certificate?",
+      "How to get migration certificate?",
+      "I want to change college"
+    ],
+    "responses": [
+      "Migration certificate can be obtained by submitting application in the office."
+    ]
+  },
+  {
+    "tag": "transcript_certificate",
+    "patterns": [
+      "What is transcript certificate?",
+      "How to get transcript?",
+      "I need academic transcript"
+    ],
+    "responses": ["Transcript certificate can be requested from the office."]
+  },
+  {
+    "tag": "fee_refund",
+    "patterns": [
+      "Will I get fee refund?",
+      "Will fee be refunded if admission is cancelled?",
+      "What is refund policy"
+    ],
+    "responses": [
+      "Refund policy depends on admission rules and college guidelines."
+    ]
+  },
+  {
+    "tag": "internship",
+    "patterns": [
+      "Is internship available?",
+      "What are internship opportunities?",
+      "Who will help for internship"
+    ],
+    "responses": ["Placement cell shares internship opportunities."]
+  },
+  {
+    "tag": "extracurricular",
+    "patterns": [
+      "Are extra activities conducted?",
+      "Can I join NCC?",
+      "Is there sports or cultural group"
+    ],
+    "responses": [
+      "Yes, students can join NCC, cultural club, sports and other activities."
+    ]
+  },
+  {
+    "tag": "parking",
+    "patterns": [
+      "Is parking facility available?",
+      "Where to park vehicle?",
+      "Is college parking available"
+    ],
+    "responses": [
+      "Student parking area is available according to campus policy."
+    ]
+  },
+  {
+    "tag": "medical_facility",
+    "patterns": [
+      "Will I get medical help?",
+      "What to do in emergency?",
+      "Is first aid facility available"
+    ],
+    "responses": [
+      "Basic medical and first aid support may be available in campus."
+    ]
+  },
+  {
+    "tag": "scholarship_renewal",
+    "patterns": [
+      "How to renew scholarship?",
+      "Will scholarship be given next year?",
+      "How to continue scholarship"
+    ],
+    "responses": ["Scholarship renewal depends on scheme rules."]
+  },
+  {
+    "tag": "result_access",
+    "patterns": [
+      "Can I check result from mobile?",
+      "How to login for result?",
+      "Will result be available online"
+    ],
+    "responses": ["Yes, you can login to student portal and check result."]
+  },
+  {
+    "tag": "online_class_support",
+    "patterns": [
+      "Are online classes conducted?",
+      "Is there online study option?",
+      "What is virtual class support"
+    ],
+    "responses": [
+      "Online class availability depends on semester and situation."
+    ]
+  },
+  {
+    "tag": "whatsapp_notice",
+    "patterns": [
+      "Will I get notice on WhatsApp?",
+      "Where will I get updates?",
+      "How will I receive important information"
+    ],
+    "responses": [
+      "Important notices are published on college website or official communication channels."
+    ]
+  },
+  {
+    "tag": "general_helpdesk",
+    "patterns": [
+      "What to do for any problem?",
+      "Where will I get help?",
+      "How to contact college"
+    ],
+    "responses": [
+      "You can visit college office help desk or use official contact channels."
+    ]
+  }
+]

@@ -1,0 +1,532 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Hii",
+        "Hey there",
+        "Hello there",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! Welcome to Post Graduate Government College, Sector 11, Chandigarh. How can I help you?",
+        "Hi! I can help you with admissions, courses, departments, notices, and contact details."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Thanks bye", "Exit", "Quit"],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "Bye! Feel free to ask anytime."
+      ]
+    },
+    {
+      "tag": "college_name",
+      "patterns": [
+        "What is the name of the college?",
+        "College name?",
+        "Which college is this?",
+        "Full name of the college?"
+      ],
+      "responses": [
+        "The college name is Post Graduate Government College, Sector 11, Chandigarh."
+      ]
+    },
+    {
+      "tag": "college_location",
+      "patterns": [
+        "Where is the college located?",
+        "College address?",
+        "Where is PGGC 11 located?",
+        "How to reach the college?"
+      ],
+      "responses": [
+        "The college is located in Sector 11, Chandigarh. You can check the Contact Us page on the official website for the exact address."
+      ]
+    },
+    {
+      "tag": "college_affiliation",
+      "patterns": [
+        "Is this college affiliated with Panjab University?",
+        "College affiliation?",
+        "Which university is this college affiliated to?"
+      ],
+      "responses": [
+        "Yes, the college is affiliated with Panjab University (PU), Chandigarh."
+      ]
+    },
+    {
+      "tag": "college_type",
+      "patterns": [
+        "Is this college government or private?",
+        "Is PGGC 11 government college?",
+        "Is this a private college?"
+      ],
+      "responses": [
+        "Post Graduate Government College, Sector 11 is a government college."
+      ]
+    },
+    {
+      "tag": "college_website",
+      "patterns": [
+        "What is the official website?",
+        "College website link?",
+        "Official site?",
+        "Website of PGGC 11?"
+      ],
+      "responses": ["The official website is: https://www.gc11.ac.in/"]
+    },
+    {
+      "tag": "college_principal",
+      "patterns": [
+        "Who is the principal of the college?",
+        "College principal name?",
+        "Principal of PGGC 11?"
+      ],
+      "responses": [
+        "You can find the latest Principal details on the official website under the Institute/Administration section."
+      ]
+    },
+    {
+      "tag": "college_contact",
+      "patterns": [
+        "How can I contact the college?",
+        "College contact number?",
+        "Phone number?",
+        "College email?",
+        "Contact details?"
+      ],
+      "responses": [
+        "You can find the official contact number and email on the Contact Us page of the college website."
+      ]
+    },
+    {
+      "tag": "college_timings",
+      "patterns": [
+        "What are the college timings?",
+        "College working hours?",
+        "When does college open?",
+        "When does college close?"
+      ],
+      "responses": [
+        "College timings may vary. Please check the official website or contact the college office for updated timings."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How can I apply for admission?",
+        "Admission process?",
+        "How to take admission?",
+        "How to get admission in this college?",
+        "Admission procedure?",
+        "How to apply for UG admission?",
+        "How to apply for PG admission?",
+        "What is the admission process?",
+        "How can I get admission in the college?",
+        "What are the steps to apply for admission?",
+        "Tell me the college admission procedure"
+      ],
+      "responses": [
+        "Admissions are usually done through the official admission portal and college website notices. Please check the Admission section on the official website."
+      ]
+    },
+    {
+      "tag": "admission_dates",
+      "patterns": [
+        "When do admissions start?",
+        "Admission start date?",
+        "Last date for admission?",
+        "Admission schedule?"
+      ],
+      "responses": [
+        "Admission dates change every year. Please check the latest admission notice in the Admission section of the official website."
+      ]
+    },
+    {
+      "tag": "ug_admission_process",
+      "patterns": [
+        "UG admission process",
+        "How to take UG admission",
+        "UG admission kaise le",
+        "Bachelor admission process"
+      ],
+      "responses": [
+        "UG admissions are conducted through the DHE Chandigarh portal.\n\n Please apply online at: https://dhe.chd.gov.in"
+      ]
+    },
+    {
+      "tag": "pg_admission_process",
+      "patterns": [
+        "PG admission process",
+        "How to apply for PG admission",
+        "Master admission process"
+      ],
+      "responses": [
+        "PG admissions are conducted through the DHE Chandigarh portal.\n\n Please apply online at: https://dhe.chd.gov.in"
+      ]
+    },
+    {
+      "tag": "admission_documents",
+      "patterns": [
+        "What documents are required for admission?",
+        "Documents for admission?",
+        "What should I bring for admission?"
+      ],
+      "responses": [
+        "Generally, you need your mark sheets, ID proof, photographs, and category certificate (if applicable). For the exact list, please check the latest admission notice on the website."
+      ]
+    },
+    {
+      "tag": "admission_eligibility",
+      "patterns": [
+        "Eligibility criteria",
+        "Admission eligibility",
+        "Who can apply"
+      ],
+      "responses": [
+        "Eligibility criteria depend on the selected course. Generally, students must have passed the required qualifying examination."
+      ]
+    },
+    {
+      "tag": "seat_availability",
+      "patterns": [
+        "Seat availability",
+        "Available seats",
+        "How many seats are available"
+      ],
+      "responses": [
+        "Seat availability depends on the course and admission cycle. Please contact the admission office for latest updates."
+      ]
+    },
+
+    {
+      "tag": "reservation_policy",
+      "patterns": [
+        "Is there reservation quota?",
+        "SC ST OBC quota?",
+        "Is there any quota for admission?"
+      ],
+      "responses": [
+        "Yes, reservation policies apply as per government rules. Please check the admission guidelines on the official website."
+      ]
+    },
+    {
+      "tag": "admission_documents",
+      "patterns": [
+        "Required documents",
+        "Admission documents",
+        "What documents are needed"
+      ],
+      "responses": [
+        "You need academic certificates, identity proof, photographs, and other course-specific documents."
+      ]
+    },
+    {
+      "tag": "merit_list",
+      "patterns": [
+        "Merit list",
+        "Admission merit list",
+        "When will merit list be released"
+      ],
+      "responses": [
+        "Merit list is published after application verification. Please check the official notice section."
+      ]
+    },
+
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "What courses are offered?",
+        "Courses available?",
+        "Programs offered?",
+        "What can I study here?"
+      ],
+      "responses": [
+        "The college offers UG and PG courses in Arts, Commerce, Science, and IT. For the complete list, please check the Courses/Departments section on the official website."
+      ]
+    },
+    {
+      "tag": "ug_courses",
+      "patterns": ["UG courses", "Undergraduate courses", "Bachelor courses"],
+      "responses": [
+        "The college offers various UG programs. Please check the courses section for complete list."
+      ]
+    },
+
+    {
+      "tag": "pg_courses",
+      "patterns": ["PG courses", "Postgraduate courses", "Master courses"],
+      "responses": [
+        "The college offers selected PG programs. Please refer to the academic prospectus."
+      ]
+    },
+    {
+      "tag": "certificate_courses",
+      "patterns": ["Certificate courses", "Short term courses"],
+      "responses": [
+        "Certificate courses may be available depending on department offerings."
+      ]
+    },
+
+    {
+      "tag": "bca_course",
+      "patterns": [
+        "Does the college offer BCA?",
+        "Is BCA available?",
+        "BCA course available?"
+      ],
+      "responses": [
+        "Yes, BCA is available. Please check the Courses/Departments section for complete details."
+      ]
+    },
+    {
+      "tag": "msc_it_course",
+      "patterns": [
+        "Does the college offer MSc IT?",
+        "Is MSc IT available?",
+        "MSc IT course?"
+      ],
+      "responses": [
+        "Yes, MSc IT is offered. Please check the official website for eligibility and syllabus."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure?",
+        "College fees?",
+        "Fees details?",
+        "How much is the fee?"
+      ],
+      "responses": [
+        "Fee structure may change yearly. Please check the latest Fee Structure/Prospectus on the official website."
+      ]
+    },
+    {
+      "tag": "online_fee_payment",
+      "patterns": [
+        "Can I pay fees online?",
+        "Online fee payment available?",
+        "How to pay fees?"
+      ],
+      "responses": [
+        "If online fee payment is available, it will be mentioned on the official website or student portal. Please check the latest notices."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Are scholarships available?",
+        "How to apply for scholarship?",
+        "Scholarship for SC ST?",
+        "Government scholarships?"
+      ],
+      "responses": [
+        "Yes, scholarships are available as per government rules. Please check the Scholarship/Notices section on the college website for updated details."
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "What departments are available?",
+        "Departments list?",
+        "Which departments are there?"
+      ],
+      "responses": [
+        "The college has departments in Arts, Commerce, Science, and IT. For the full list, please visit the Departments section on the official website."
+      ]
+    },
+    {
+      "tag": "faculty_list",
+      "patterns": [
+        "Where can I find the faculty list?",
+        "Faculty details?",
+        "Teachers list?"
+      ],
+      "responses": [
+        "You can find the faculty list in the Departments section on the official website."
+      ]
+    },
+    {
+      "tag": "notices",
+      "patterns": [
+        "Where can I find latest notices?",
+        "Latest announcements?",
+        "College notices?",
+        "Updates?"
+      ],
+      "responses": [
+        "You can check the latest notices and announcements on the home page of the official college website."
+      ]
+    },
+    {
+      "tag": "timetable",
+      "patterns": [
+        "Where can I find the timetable?",
+        "Class schedule?",
+        "Time table download?"
+      ],
+      "responses": [
+        "Timetable is available in the Notices/Downloads section on the official website."
+      ]
+    },
+    {
+      "tag": "syllabus",
+      "patterns": [
+        "Where can I find the syllabus?",
+        "Syllabus download?",
+        "Course syllabus?"
+      ],
+      "responses": [
+        "You can download syllabus from the official website under the Academics/Syllabus section (or relevant department page)."
+      ]
+    },
+    {
+      "tag": "results",
+      "patterns": [
+        "How can I check my results?",
+        "Where can I see results?",
+        "Result link?"
+      ],
+      "responses": [
+        "Results are usually published by Panjab University or shared through college notices. Please check the Notices section and the PU official website."
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "When are exams conducted?",
+        "Exam schedule?",
+        "Date sheet?"
+      ],
+      "responses": [
+        "Exam schedules and date sheets are usually shared through notices. Please check the official website regularly."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "Does the college have a library?",
+        "Library timings?",
+        "How to issue books?"
+      ],
+      "responses": [
+        "Yes, the college has a library. For timings and rules, please check the Library section on the official website."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "Does the college have sports facilities?",
+        "Sports ground available?",
+        "What sports are available?"
+      ],
+      "responses": [
+        "Yes, sports facilities are available. For complete details, check the Facilities/Sports section on the official website."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Does the college have hostel?",
+        "Hostel facility available?",
+        "Girls hostel?",
+        "Boys hostel?"
+      ],
+      "responses": [
+        "Hostel facility information is available on the official website. Please check the Hostel/Facilities section."
+      ]
+    },
+    {
+      "tag": "ncc_nss",
+      "patterns": [
+        "Does the college have NCC?",
+        "Does the college have NSS?",
+        "How to join NCC?",
+        "How to join NSS?"
+      ],
+      "responses": [
+        "Yes, the college has NCC/NSS. Please check the Activities/Student Corner section for updated details."
+      ]
+    },
+    {
+      "tag": "clubs_events",
+      "patterns": [
+        "Does the college organize events?",
+        "College fest?",
+        "Clubs in college?",
+        "Cultural activities?"
+      ],
+      "responses": [
+        "Yes, the college organizes cultural and academic events. Please check the News/Events or Notices section on the website."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "Does the college provide placements?",
+        "Placement cell?",
+        "Internships?",
+        "Career support?"
+      ],
+      "responses": [
+        "Placement and career support details are available in the Placement/Training section (if available) or through notices."
+      ]
+    },
+    {
+      "tag": "certificates",
+      "patterns": [
+        "How can I get bonafide certificate?",
+        "How can I get character certificate?",
+        "How to apply for migration certificate?",
+        "How to get transcript?"
+      ],
+      "responses": [
+        "For certificates like bonafide/character/migration, please contact the college office. Any forms or instructions may be available in the Downloads section."
+      ]
+    },
+    {
+      "tag": "grievance",
+      "patterns": [
+        "How can I submit a complaint?",
+        "Grievance redressal?",
+        "Where can I give feedback?",
+        "Any complaint portal?"
+      ],
+      "responses": [
+        "You can check the Grievance Redressal section on the official website or contact the college office."
+      ]
+    },
+    {
+      "tag": "rti",
+      "patterns": [
+        "RTI officer details?",
+        "How to file RTI?",
+        "Right to Information contact?"
+      ],
+      "responses": [
+        "RTI details are available on the official website. Please check the RTI section or the Contact page."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I have a question",
+        "Can you help me?",
+        "Tell me something",
+        "I want information"
+      ],
+      "responses": [
+        "Sorry, I couldn't understand that. Please ask about admissions, courses, fees, departments, notices, or contact details.",
+        "I’m not sure about that. You can check the official website or ask me about admissions, courses, or contact information."
+      ]
+    }
+  ]
+}
