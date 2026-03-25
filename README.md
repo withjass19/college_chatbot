@@ -157,13 +157,9 @@ Open: [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 ## 🖼️ Screenshots (Add yours)
 
-```
-```
 ![Chatbot closed](./static/screenshots/S1.png)
-```
-```
+
 ![Chatbot opened](./static/screenshots/S2.png)
-```
 
 ---
 
