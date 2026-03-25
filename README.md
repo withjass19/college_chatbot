@@ -120,7 +120,7 @@ Example:
 
 ## 🤖 Model / Approach
 
-This project **does NOT use traditional ML/DL models**.
+This project **does NOT use traditional Machine Learning or Deep Learning models.**
 
 It uses:
 
@@ -207,4 +207,4 @@ Feel free to fork, improve, and contribute.
 
 ## 📜 License
 
-Educational purposes only.
+This project is for educational purposes only.
